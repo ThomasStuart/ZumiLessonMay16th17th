@@ -11,7 +11,7 @@ G = Graph()
 def load_graph( num ):
     global G 
     
-    while num < 1 and num > 5: 
+    while num < 1 or num > 5: 
         num = input("Invalid Graph number, please enter a new one:  ")
         num = int(num)
     
